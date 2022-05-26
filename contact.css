@@ -1,0 +1,42 @@
+
+
+.landing-image {
+  height: 65%;
+  display: inline-block;
+  width: 65%;
+}
+
+.cardd {
+  display: flex;
+  margin: 0 2%  ;
+ 
+}
+.contentt{
+    margin-top: 2.5rem;
+}
+.containerr {
+  padding: 0.01rem 5.5rem;
+  /* margin-bottom: 1rem; */
+  margin-top: 2rem;
+
+  background-color: #d3d3d394;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
+}
+.containerr:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:600px)
+{
+  .cardd{
+    display: block;
+    text-align: center;
+  }
+  .landing-image
+  {
+    width: 100%;
+  }
+  
+}

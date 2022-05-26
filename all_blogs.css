@@ -1,0 +1,15 @@
+.landing-image {
+  height: 65%;
+  display: inline-block;
+  width: 65%;
+}
+
+.card {
+  background-color: #d3d3d394;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  padding:1rem;
+  margin-top: 2rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}

@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "blogit",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
